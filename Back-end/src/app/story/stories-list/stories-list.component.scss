@@ -1,0 +1,57 @@
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+::ng-deep .ngx-pagination{
+    padding: 0;
+}
+
+::ng-deep .ngx-pagination .current{
+    background-color: #dc3545 !important;
+  }  
+
+  #td-not-found{
+    padding: 128px;
+  }
+
+  #td-spinner{
+    padding: 128px;
+  }
+
+  .btn-danger{
+    background-color: #D6001C;
+  }
+
+  .table-bordered {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+ table .btn-danger{
+    background-color: transparent;
+    border-color: #D6001C;
+  }
+
+  @media only screen and (max-width: 742px) {
+    #viewStoryText{
+      display: none;
+    }
+  }
+
+.table-container, #refreshButton, h2{
+  min-width: 724px;
+}
+
+  

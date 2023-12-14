@@ -1,0 +1,69 @@
+<main class="container-fluid">
+  <section class="row">
+     <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong id="errorMessage">Server error!</strong> {{errorMessage}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+     </div>
+     <div class="col-12 mt-2">
+        <h2 class="text-center">The Newest Stories</h2>
+        <hr>
+     </div>
+     <div class="col-12">
+        <button class="btn btn-danger w-100" id="refreshButton" (click)="refresh()" >Refresh stories 
+        <span *ngIf="loading" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <em *ngIf="!loading" class="fa fa-refresh"></em>
+        </button>
+     </div>
+     <div class="col-12">
+        <div class="form-group has-search">
+           <span class="fa fa-search form-control-feedback"></span>
+           <input type="text"
+              id="inputSearchStory"
+              class="form-control mt-4 mb-2"
+              placeholder="Search story..."
+              #txtSearch
+              (keyup)="onSearchStory( txtSearch.value )" />
+        </div>
+     </div>
+     <div class="col-12">
+      <div class="table-container">
+         <div class="table-responsive">
+            <table class="table table-bordered table-dark mb-0" >
+               <caption>List of stories <span *ngIf="listStories.length > 0">(total records {{(listStories | filter:search).length}})</span></caption>
+               <thead>
+                  <tr>
+                     <th scope="col">Tittle</th>
+                     <th scope="col">Detail</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr *ngFor="let story of listStories | filter:search | paginate: config">
+                     <td>{{ story.title }}</td>
+                     <td>
+                        <button class="btn btn-danger" type="button" (click)="openLink(story.link)" >
+                           <span id="viewStoryText">View story </span><em class="fa fa-eye"></em>
+                         </button>
+                     </td>
+                  </tr>
+                  <tr tr *ngIf="(listStories | filter:search).length === 0 && !loading">
+                     <td colspan="2" class="text-center" id="td-not-found">No records found.</td>
+                  </tr>
+                  <tr *ngIf="loading">
+                     <td colspan="2" id="td-spinner">
+                        <div class="d-flex justify-content-center">
+                           <div class="spinner-border" role="status">
+                              <span class="sr-only" id="loading">>Loading...</span>
+                           </div>
+                        </div>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="col-12 text-center">
+            <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+         </div>
+      </div>
+     </div>
+  </section>
+</main>
