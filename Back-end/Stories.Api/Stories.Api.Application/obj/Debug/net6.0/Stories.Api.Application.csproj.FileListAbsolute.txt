@@ -1,0 +1,17 @@
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Application.deps.json
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Application.dll
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Application.pdb
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Core.dll
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Proxy.dll
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Proxy.pdb
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\bin\Debug\net6.0\Stories.Api.Core.pdb
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.csproj.AssemblyReference.cache
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.AssemblyInfoInputs.cache
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.AssemblyInfo.cs
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.csproj.CopyComplete
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.dll
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\refint\Stories.Api.Application.dll
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\Stories.Api.Application.pdb
+C:\Users\amonroy\source\repos\Stories.Api\Stories.Api.Application\obj\Debug\net6.0\ref\Stories.Api.Application.dll
